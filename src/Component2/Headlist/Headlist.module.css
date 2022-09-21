@@ -1,0 +1,79 @@
+.body{
+    height: 70px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.listcontainer{
+  
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    
+    
+}
+
+.listcontainer ul{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.icon{
+    width: 138px;
+    height: 80%;
+    
+   
+}
+.logo:hover,p:hover,.icon:hover{
+    color: rgb(67, 67, 245);
+}
+
+.logo{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 60%;
+    margin: auto;
+    width: 100%;
+    color: #787885;
+}
+
+p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 143%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.018em;
+justify-content: center;
+
+/* Gray / 50 */
+
+color: #787885;
+
+}
+
+@media (max-width:500px){
+    .icon{
+        width: 32px;
+    }
+
+    p{
+       
+    font-family: unset;
+    color: black;
+    font-size: 7px;
+    
+    
+    }
+}
+

@@ -1,0 +1,106 @@
+.body{
+    background-color: rgb(224, 198, 198);
+}
+
+.footer{
+    background-color: rgb(63, 61, 61);
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: azure;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+}
+.content p:hover{
+    color: rgb(67, 158, 158);
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.social li{
+    margin: 0 10px;
+
+}
+
+.social a{
+    text-decoration: none;
+    color: beige;
+}
+
+
+
+.bottom{
+    height: 50px;
+    
+}
+.bottom p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;   
+    color: white;
+}
+.bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+
+
+@media (max-width:500px){
+
+    .footer{
+        padding-top: unset;
+    }
+    .content h3{
+        font-size: 1rem;
+    }
+    .content p{
+        font-size: 7px;
+    }
+    .social{
+        margin: 1rem 0 1rem 0;
+    }
+    .bottom{
+        height: 47px;
+    }
+    .bottom p{
+        font-size: 8px;
+        word-spacing: unset;
+    }
+
+
+
+}

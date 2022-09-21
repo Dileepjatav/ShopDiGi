@@ -1,0 +1,353 @@
+.Head{
+  
+    height: 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo{
+    
+    height: 97%;
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 290px;
+  
+    
+}
+.logo div p{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    background: #537ecf;
+    border-radius: 5px;
+    color: white;
+    
+}
+.logo p{
+    color: #0C2146;
+    margin-left: 20px;
+   
+    font-family: 'Hat Display';
+    font-style: normal;
+    font-weight: 500;
+        font-size: 24px;
+    line-height: 36px;
+
+}
+
+.register{
+    
+    width: 112px;
+    height: 40px;
+    margin-left: 30px  ; 
+    display: grid;
+    justify-content: center;
+
+    
+   
+}
+.register p{
+    color: #5A5B6A;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 158%;
+font-size: 15px;
+    
+
+
+}
+.search{
+    width: 512px;
+    height: 33px;
+    background: #EDEDF0;
+    border-radius: 99px;
+    margin-left: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.search input{
+    background: #EDEDF0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 158%;
+border: none;
+text-align: center;
+width: 80%;
+    
+
+}
+
+
+
+
+
+.menu{
+    
+    height: 40px;
+    margin-left: 29px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 290px;
+
+}
+.menu p{
+    font-family:'Inter';
+font-size: 15px;
+font-style: normal;
+color: #2264D1;
+
+}
+
+.signup{
+   width: 113px;
+height: 40px;
+
+
+
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.signup button,.cart button{
+    color: #2264D1;
+    border: 1px solid #9DC2FF;
+border-radius: 4px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 150%;
+background-color: white;
+width: 100%;
+height: 100%;
+}
+.signup button:hover,.cart button:hover{
+    background-color: #d9d9dd;
+}
+.cart{
+width: 104px;
+height: 40px;
+background: #EDEDF0;
+margin-left: 30px;
+
+display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile{
+    width:3rem;
+    height: 3rem;
+    background: #EDEDF0;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+
+
+@media (max-width:500px){
+    .head{
+        height: 39px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        height: 97%;
+    display: flex;
+    /* align-items: center; */
+    align-items: unset;
+    /* justify-content: center; */
+    justify-content: unset;
+    width: 18%;
+    }
+    .logo div p{
+        height: 25px;
+    width: 22px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: unset;
+    /* font-weight: 600; */
+    font-weight: unset;
+    font-size: 20px;
+    background: #537ecf;
+    border-radius: 5px;
+    color: white;
+    }
+    .logo p{
+        color: #0C2146;
+        margin-left: 5px;
+        font-family: 'Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        /* line-height: 36px;*/
+        line-height: unset;
+        
+    }
+
+    .register{
+       
+        width: unset;
+        height: unset;
+        margin-left: 0px;
+       
+    }
+    .register p{
+        color: #5A5B6A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 158%; */
+    font-size: 8px;
+    line-height: unset;
+    }
+
+    .search{
+    width: 97px;
+    height:unset;
+    background: #EDEDF0;
+    border-radius: 99px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .search input{
+        background: #EDEDF0; 
+    /* font-family: 'Inter'; */
+    font-family: unset;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-weight: unset;
+    font-size: 10px;
+    /* line-height: 158%; */
+    line-height: unset;
+    border: none;
+    text-align: center;
+    width: 80%;
+    }
+    .menu{
+        height: 19px;
+        /* margin-left: 29px; */
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 71px;
+        width: unset;
+    }
+    .menu p{
+        font-family: 'Inter';
+    font-size: 6px;
+    font-style: normal;
+    color: #2264D1;
+    }
+    .signup{
+
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 35px;
+    margin-left: 5px;
+    
+    }
+    .signup button{
+        color: #2264D1;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-weight: unset;
+    font-size: 7px;
+    /* line-height: 150%; */
+    line-height: unset;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+
+    }
+
+    .cart{
+     
+        background: #EDEDF0;
+        /* margin-left: 30px; */
+        margin-left: 5px;
+        border-radius: 50%;
+
+        height: 16px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 35px;
+    
+    }
+    .cart button{
+        
+        color: #2264D1;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-weight: unset;
+    font-size: 7px;
+    /* line-height: 150%; */
+    line-height: unset;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+
+
+    }
+
+
+
+    .profile{
+        width: 2rem;
+        height: 2rem;
+        background: #EDEDF0;
+        
+       
+        margin-left: 5px;
+        border-radius: 50%;
+    }
+
+
+
+    
+    
+    
+}
